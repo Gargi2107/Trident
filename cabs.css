@@ -43,13 +43,10 @@ body {
 .mid {
     width: 50%;
     height: 70px;
+    opacity: 70%;
     margin: 20px auto;
     background-color: black; 
     border-radius: 30px;
-    /* position: sticky; */
-    /* top: 0px;
-    z-index: 9; */
-
 }
 
 .right {
@@ -157,7 +154,7 @@ body {
     border-radius: 20px;
     padding: 0px 10px;
     margin: 10px;
-    opacity: 90%;
+    opacity: 80%;
 }
 
 .contact h4 {
@@ -175,7 +172,7 @@ body {
     border-radius: 20px;
     display: inline-block;
     padding: 0px 10px;
-    opacity: 90%;
+    opacity: 80%;
     width: 48%;
     margin: 10px;
 }
@@ -185,20 +182,15 @@ body {
     background-color: rgb(81, 80, 80);
     color: white;
 }
-
-#book:hover,
-#book:active {
+#book:hover, #book:active {
     background-color: black;
 }
 
 footer {
     height: 140px;
-    
-    
 }
 .leftfooter{
     margin: 20px;
-
     line-height: 10px;
     font-size: 20px;
     float: left;
@@ -209,7 +201,6 @@ footer {
     font-size: 20px;
     float: right;
 }
-
 .rightfooter a {
     line-height: 0;
     color: black;
